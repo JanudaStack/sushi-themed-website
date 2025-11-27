@@ -13,11 +13,11 @@
 
 .header__logo-overlay {
     position: absolute;
+    z-index: -1;
     inset: 0;
     width: 100%;
 
     background-color: var(--primary-color);
-    z-index: 1;
 }
 
 .header__logo h4 {
